@@ -1,0 +1,38 @@
+
+---
+
+### .gitignore
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+ENV/
+env.bak/
+env/
+
+# Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+Enunciado
+Projeto: Cálculo de Desconto em Compras
+
+Desenvolva um script em Python que receba o valor de uma compra e calcule o valor final a ser pago pelo cliente. Se o valor da compra for superior a R$100,00, um desconto de 15% deve ser aplicado automaticamente. Caso contrário, o valor final será o mesmo valor da compra original.
+
+Requisitos:
+
+O script deve solicitar ao usuário o valor da compra.
+Se o valor da compra for maior que R$100,00, aplicar um desconto de 15%.
+O valor final deve ser exibido com duas casas decimais.
+Critérios de Avaliação:
+
+Funcionamento correto do cálculo do desconto.
+Exibição adequada do valor final.
+Organização e clareza do código.
